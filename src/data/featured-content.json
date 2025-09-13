@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Featured Project",
+    "description": "This is a description of the featured project.",
+    "image": "/thumbnails/fg4.jpg"
+  },
+  {
+    "title": "Featured Project 2",
+    "description": "This is a description of the featured project 2.",
+    "image": "/thumbnails/fg4.jpg"
+  },
+  {
+    "title": "Featured Project 3",
+    "description": "This is a description of the featured project 3.",
+    "image": "/thumbnails/fg4.jpg"
+  },
+  {
+    "title": "Featured Project 4",
+    "description": "This is a description of the featured project 4.",
+    "image": "/thumbnails/fg4.jpg"
+  },
+  {
+    "title": "Featured Project 5",
+    "description": "This is a description of the featured project 5.",
+    "image": "/thumbnails/fg4.jpg"
+  },
+  {
+    "title": "Featured Project 6",
+    "description": "This is a description of the featured project 6.",
+    "image": "/thumbnails/fg4.jpg"
+  }
+]

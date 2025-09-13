@@ -5,13 +5,13 @@ import { Menu } from "lucide-react";
 
 export function Navbar() {
   return (
-    <header className="fixed top-4 inset-x-0 max-w-5xl md:mx-auto z-50 rounded-full border bg-background backdrop-blur-lg md:mt-5 mx-2">
+    <header className="fixed top-4 inset-x-0 max-w-5xl md:mx-auto z-50 rounded-full border bg-white  backdrop-blur-lg md:mt-5 mx-2">
       <div className="flex h-14 items-center justify-between px-6">
         <Link to="/" className="flex items-center space-x-2">
           <img src="digizura.png" alt="DigiZura Logo" className="h-8 w-auto" />
         </Link>
 
-        <nav className="hidden items-center space-x-6 text-sm font-medium md:flex">
+        <nav className="hidden items-center space-x-6 text-sm font-medium md:flex text-gray-800">
           <Link to="/">Home</Link>
           <Link to="#">Solutions</Link>
           <Link to="#">Technology</Link>

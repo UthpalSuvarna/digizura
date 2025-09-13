@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { BackgroundBeams } from "@/components/ui/shadcn-io/background-beams";
-import heroContent from '@/data/hero-content.json';
+import heroContent from './hero-content.json';
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -38,7 +38,7 @@ export function HomePage() {
   }, []);
 
   return (
-    <div className="h-screen w-full bg-neutral-950 dark relative flex flex-col items-center justify-center antialiased overflow-hidden">
+    <div className="h-screen w-full bg-neutral-950 dark relative flex flex-col items-center justify-center antialiased">
       <div className="max-w-5xl mx-auto px-6">
         <AnimatePresence mode="wait">
           <motion.div

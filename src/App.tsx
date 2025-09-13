@@ -1,18 +1,16 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
 import { Navbar } from './components/layout/Navbar';
-import { HomePage } from './pages/HomePage';
+import { HomePage } from './pages/home/HomePage';
+import { FeaturedSection } from './pages/home/FeaturedSection';
 import './App.css';
 
 function App() {
   return (
-    <Router>
+    <main>
       <Navbar />
-      <main>
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-        </Routes>
-      </main>
-    </Router>
+      <HomePage />
+      <FeaturedSection />
+    </main>
   );
 }
 
