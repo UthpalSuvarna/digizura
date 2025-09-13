@@ -9,6 +9,7 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel"
 import featuredContent from "@/data/featured-content.json"
+import Autoplay from "embla-carousel-autoplay"
 
 export function FeaturedSection() {
   return (
@@ -18,7 +19,11 @@ export function FeaturedSection() {
           Featured Projects
         </h2>
         <div className="relative">
-          <Carousel className="w-full max-w-5xl mx-auto">
+          <Carousel plugins={[
+            Autoplay({
+              delay: 2000,
+            }),
+          ]} className="w-full max-w-5xl mx-auto">
             <CarouselContent>
               {featuredContent.map((feature, index) => (
                 <CarouselItem
@@ -48,8 +53,8 @@ export function FeaturedSection() {
                 </CarouselItem>
               ))}
             </CarouselContent>
-            <CarouselPrevious className="absolute -left-14 top-1/2 -translate-y-1/2" />
-            <CarouselNext className="absolute -right-14 top-1/2 -translate-y-1/2" />
+            {/* <CarouselPrevious className="absolute -left-14 top-1/2 -translate-y-1/2" />
+            <CarouselNext className="absolute -right-14 top-1/2 -translate-y-1/2" /> */}
           </Carousel>
         </div>
       </div>

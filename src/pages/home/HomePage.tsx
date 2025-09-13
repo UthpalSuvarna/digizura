@@ -38,8 +38,8 @@ export function HomePage() {
   }, []);
 
   return (
-    <div className="h-screen w-full bg-neutral-950 dark relative flex flex-col items-center justify-center antialiased">
-      <div className="max-w-5xl mx-auto px-6">
+    <div className="h-screen w-full bg-blue-950 relative flex flex-col items-center justify-center antialiased overflow-hidden">
+      <div className="max-w-5xl mx-auto px-6 relative z-10">
         <AnimatePresence mode="wait">
           <motion.div
             key={index}
@@ -51,7 +51,7 @@ export function HomePage() {
           >
             <motion.h1
               variants={itemVariants}
-              className="relative z-10 text-4xl md:text-6xl bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-600 font-sans font-bold"
+              className="relative z-10 text-4xl md:text-6xl bg-clip-text text-transparent bg-gradient-to-b from-white to-neutral-200 font-sans font-bold"
             >
               {heroContent[index].heading}
             </motion.h1>
@@ -64,16 +64,8 @@ export function HomePage() {
           </motion.div>
         </AnimatePresence>
       </div>
-      <div className="absolute bottom-0 translate-y-1/2 w-full max-w-5xl mx-auto px-6">
-        <video
-          src="https://cdn.dribbble.com/userupload/12584539/file/original-23643c2898857c639b291a111915f399.mp4"
-          autoPlay
-          muted
-          loop
-          className="w-full h-1/2 object-cover rounded-lg"
-        />
-      </div>
       <BackgroundBeams />
     </div>
+
   );
 }
