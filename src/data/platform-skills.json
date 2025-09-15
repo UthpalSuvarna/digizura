@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Angular",
+    "logo": "/platform-skills/angular.png"
+  },
+  {
+    "name": "SAP HANA",
+    "logo": "/platform-skills/sap-hana.jpg"
+  },
+  {
+    "name": "SAP S/4HANA",
+    "logo": "/platform-skills/sap-s4hana.png"
+  },
+  {
+    "name": "UiPath",
+    "logo": "/platform-skills/uipath.png"
+  },
+  {
+    "name": "Xamarin",
+    "logo": "/platform-skills/xamarin.png"
+  }
+]
