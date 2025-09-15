@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { BackgroundBeams } from "@/components/ui/shadcn-io/background-beams";
 import heroContent from './hero-content.json';
+import { HeroGeometric } from "../../components/ui/shadcn-io/shape-landing-hero";
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -38,33 +39,13 @@ export function HomePage() {
   }, []);
 
   return (
-    <div className="h-screen w-full bg-blue-950 relative flex flex-col items-center justify-center antialiased overflow-hidden">
-      <div className="max-w-5xl mx-auto px-6 relative z-10">
-        <AnimatePresence mode="wait">
-          <motion.div
-            key={index}
-            variants={containerVariants}
-            initial="hidden"
-            animate="visible"
-            exit="exit"
-            className="text-center"
-          >
-            <motion.h1
-              variants={itemVariants}
-              className="relative z-10 text-4xl md:text-6xl bg-clip-text text-transparent bg-gradient-to-b from-white to-neutral-200 font-sans font-bold"
-            >
-              {heroContent[index].heading}
-            </motion.h1>
-            <motion.p
-              variants={itemVariants}
-              className="text-neutral-400 mx-auto max-w-lg my-4 text-sm relative z-10"
-            >
-              {heroContent[index].paragraph}
-            </motion.p>
-          </motion.div>
-        </AnimatePresence>
-      </div>
-      <BackgroundBeams />
+    <div className="h-screen w-full bg-[#0A0A23] relative flex flex-col items-center justify-center antialiased overflow-hidden">
+      <HeroGeometric
+        badge="AI Powered"
+        title1="Empowering Your"
+        title2="AI Journey"
+        description="Harness the power of AI to build innovative, scalable, and intelligent solutions tailored to your business needs."
+      />
     </div>
 
   );
