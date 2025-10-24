@@ -1,16 +1,20 @@
-
-import { Navbar } from './components/layout/Navbar';
-import { HomePage } from './pages/home/HomePage';
-import Footer from './components/layout/Footer';
+import { Routes, Route } from "react-router-dom"; // <-- no BrowserRouter here
+import { Navbar } from "./components/layout/Navbar";
+import Footer from "./components/layout/Footer";
+import { HomePage } from "./pages/home/HomePage";
+import Careers from "./pages/home/Careers";
 import './App.css';
 
 function App() {
   return (
-    <main>
+    <>
       <Navbar />
-      <HomePage />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/careers" element={<Careers />} />
+      </Routes>
       <Footer />
-    </main>
+    </>
   );
 }
 

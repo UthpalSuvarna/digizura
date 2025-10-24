@@ -2,7 +2,7 @@ import { Separator } from "../ui/separator";
 import { Facebook, Twitter, Linkedin } from "lucide-react"
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-gray-200 py-10">
+    <footer id="contact" className="bg-gray-900 text-gray-200 py-10">
       <div className="container max-w-6xl mx-auto px-4">
         <div className="grid grid-cols-1 gap-10 md:grid-cols-3">
           {/* About */}

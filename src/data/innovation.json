@@ -1,0 +1,83 @@
+[
+  {
+    "title": "AMS",
+    "image": "/innovation/AMS.png",
+    "description": [
+      "SAP AMS Services",
+      "Custom Application Support Services",
+      "Automation of Ticket Handling",
+      "Chatbot enabled L1 helpdesk",
+      "COE based consulting Support",
+      "Outcome based KPIs"
+    ]
+  },
+  {
+  "title": "Consumer Experience",
+  "image": "/innovation/consumer.png",
+  "description": {
+    "main": "Cutting edge solutions spanning customer interaction including",
+    "points": ["FIORI", "Chatbots", "Analytics", "RPA"]
+  }
+},
+  {
+    "title": "EHS",
+    "image": "/innovation/EHS.png",
+    "description": [
+        "Solutions including SAP EHS",
+        "Specialized team in Product safety & compliance check. Reach SDS",
+        "SAP PLM Services"
+    ]
+  },
+  {
+    "title": "Finance",
+    "image": "/innovation/finance.png",
+    "description": {
+        "main": "Solutions including",
+        "points": ["S/4HANA Settlement Management","SAP Treasury Management","Financial Closing Cockpit etc.","Implementation and Consulting Services"]
+    }
+  },
+  {
+    "title": "Logistics",
+    "image": "/innovation/logistics.png",
+    "description": {
+        "main": "SAP Digital Warehouse",
+        "points": ["Simplified Inbound","Rapid outbound","Automated Inventory Management","Digital Shop Floor"]
+    }
+  },
+  {
+    "title": "Microsoft",
+    "image": "/innovation/Microsoft.png",
+    "description": [
+        "Implementation Services",
+        "Projects",
+        "Support Services",
+        "Technical Cosulting "
+    ]
+  },
+  {
+    "title": "Mobility",
+    "image": "/innovation/Mob.png",
+    "description": [
+        "Android and IOS based Solutions",
+        "XAMARIN - Developed Business applications using GPS for Transportation Platform",
+        "Angular Js, Node Js"
+    ]
+  },
+  {
+    "title": "Product",
+    "image": "/innovation/product.png",
+    "description": [
+        "Implementation Services",
+        "manage the Product life cycle with Recipe & specification management",
+        "Specialized team with high Process Industry background"
+    ]
+  },
+  {
+    "title": "Transport",
+    "image": "/innovation/Transport.png",
+    "description": {
+        "main": "Precision Transportation Platform",
+        "points": ["Real-time tracking of shipments","Optimized route planning","Automated documentation","Enhanced customer communication"]
+    }
+  }
+]

@@ -7,14 +7,24 @@ import {
 } from "@/components/ui/carousel"
 import featuredContent from "@/data/featured-content.json"
 import Autoplay from "embla-carousel-autoplay"
+import { motion } from "framer-motion";
 
 export function FeaturedSection() {
   return (
     <div className="w-full bg-white py-20">
       <div className="max-w-6xl mx-auto px-6">
-        <h2 className="text-4xl md:text-6xl  font-sans font-bold text-center mb-16">
-          Featured Projects
-        </h2>
+        <motion.h2
+      className="text-4xl md:text-6xl font-sans font-bold text-center mb-16 bg-clip-text text-transparent bg-gradient-to-r from-gray-700 via-gray-800 to-gray-900 relative inline-block"
+      initial={{ opacity: 0, y: -20 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true }}
+      transition={{ duration: 0.8, ease: "easeOut" }}
+    >
+      Featured Projects
+      {/* Subtle animated underline */}
+      <span className="absolute left-1/2 -bottom-2 w-20 h-1 bg-gray-600 rounded-full transform -translate-x-1/2 animate-pulse opacity-50"></span>
+    </motion.h2>
+
         <div className="relative">
           <Carousel plugins={[
             Autoplay({

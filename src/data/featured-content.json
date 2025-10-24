@@ -1,23 +1,23 @@
 [
   {
     "title": "Featured Project",
-    "description": "This is a description of the featured project.",
-    "image": "/thumbnails/fg4.jpg"
+    "description": "Enhanced with AI/ML and Chatbot",
+    "image": "/thumbnails/chatbot.jpg"
   },
   {
     "title": "Featured Project 2",
-    "description": "This is a description of the featured project 2.",
+    "description": "Enhance the product quality and optimize operational performance ",
     "image": "/thumbnails/fg4.jpg"
   },
   {
-    "title": "Featured Project 3",
-    "description": "This is a description of the featured project 3.",
-    "image": "/thumbnails/fg4.jpg"
+    "title": "Featured Project 3", 
+    "description": "Automated Inventory and advanced tools & management. ",
+    "image": "/thumbnails/automated.jpg"
   },
   {
     "title": "Featured Project 4",
-    "description": "This is a description of the featured project 4.",
-    "image": "/thumbnails/fg4.jpg"
+    "description": "Cloud on Premise mobility",
+    "image": "/thumbnails/cloud.jpg"
   },
   {
     "title": "Featured Project 5",
